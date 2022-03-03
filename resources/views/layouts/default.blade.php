@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        @include('header')
+        @include('partials.header')
     </header>
 
 
@@ -20,7 +20,7 @@
 
 
     <footer>
-        @include('footer')
+        @include('partials.footer')
     </footer>
 </body>
 </html>

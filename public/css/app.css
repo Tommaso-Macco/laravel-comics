@@ -12173,3 +12173,48 @@ fieldset:disabled .btn {
   }
 }
 
+header {
+  height: 150px;
+  background-color: #fff;
+  width: 80%;
+  margin: auto;
+}
+
+.hd-left {
+  width: 40%;
+  float: left;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.hd-right {
+  width: 60%;
+  float: right;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.hd-left img {
+  height: 50%;
+}
+
+.lnikstyle {
+  font-size: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.lnikstyle li a {
+  color: #000;
+  padding: 7px;
+  font-weight: 700;
+}
+
+.active {
+  font-size: 500px;
+}
+
