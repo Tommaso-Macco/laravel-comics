@@ -23,3 +23,9 @@ Route::get('/comics', function () {
     /* dump($comics); */
     return view('comics', /* compact("comics") */);
 })->name('comics');
+
+Route::get('/contacts', function () {
+    /* $contacts = config("contacts"); */
+    /* dump($contacts); */
+    return view('contacts', /* compact("contacts") */);
+})->name('contacts');

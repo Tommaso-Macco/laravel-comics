@@ -17,6 +17,13 @@
         font-size: 15px;
         font-weight: 1000;
     }
+    ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
 }
 
 /* ul:first-child i {
@@ -25,12 +32,4 @@
 
 .right-header {
     width: 100%;
-}
-
-ul {
-    display: flex;
-    list-style-type: none;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
 }

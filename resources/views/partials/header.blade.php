@@ -10,10 +10,10 @@
         {{-- RIGHT LINKS CONTENT --}}
         <ul>
             <li>
-                <a href="">CHARACTERS</a>
+                <a href="{{ route("home")}}">CHARACTERS</a>
             </li>
             <li>
-                <a href="">CONTACTS</a>
+                <a href="{{ route("contacts") }}">CONTACTS</a>
             </li>
             <li>
                 <a href="">MOVIES</a>
